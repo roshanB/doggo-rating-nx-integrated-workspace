@@ -3,7 +3,7 @@
   "$schema": "../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/doggo-rating-app/src",
-  "prefix": "doggo-rating-workspace-re-arch-with-libs",
+  "prefix": "app",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
@@ -14,11 +14,15 @@
         "main": "apps/doggo-rating-app/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/doggo-rating-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
         "assets": [
           "apps/doggo-rating-app/src/favicon.ico",
           "apps/doggo-rating-app/src/assets"
         ],
-        "styles": ["apps/doggo-rating-app/src/styles.css"],
+        "styles": [
+          "apps/doggo-rating-app/src/styles.css",
+          "node_modules/ngx-toastr/toastr.css"
+        ],
         "scripts": []
       },
       "configurations": {
