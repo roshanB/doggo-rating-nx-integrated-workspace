@@ -17,11 +17,10 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
+            "prefix": "ps-doggo-rating",
             "style": "kebab-case"
           }
-        ],
-        "@typescript-eslint/no-explicit-any": "off"
+        ]
       },
       "extends": [
         "plugin:@nrwl/nx/angular",

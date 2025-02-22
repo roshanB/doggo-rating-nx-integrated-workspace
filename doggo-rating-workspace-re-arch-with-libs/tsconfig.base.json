@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ps-doggo-rating/about/feature": ["libs/about/feature/src/index.ts"],
+      "@ps-doggo-rating/doggos/domain": ["libs/doggos/domain/src/index.ts"],
+      "@ps-doggo-rating/doggos/feature": ["libs/doggos/feature/src/index.ts"],
+      "@ps-doggo-rating/doggos/ui": ["libs/doggos/ui/src/index.ts"],
       "@ps-doggo-rating/shared/ui-common": [
         "libs/shared/ui-common/src/index.ts"
       ],
