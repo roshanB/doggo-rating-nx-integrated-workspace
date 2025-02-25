@@ -15,9 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ps-doggo-rating/buildable-test": [
-        "libs/buildable-test/src/index.ts"
-      ],
       "@ps-doggo-rating/about/feature": ["libs/about/feature/src/index.ts"],
       "@ps-doggo-rating/doggos/domain": ["libs/doggos/domain/src/index.ts"],
       "@ps-doggo-rating/doggos/feature": ["libs/doggos/feature/src/index.ts"],
