@@ -3,6 +3,8 @@ import { Store } from '@ngrx/store';
 import { AuthActions } from '@ps-doggo-rating/shared/util-auth';
 import { LayoutComponent } from './layout/layout.component';
 
+import { BuildableTestModule } from '@ps-doggo-rating/buildable-test';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
